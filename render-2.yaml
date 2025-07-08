@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: velo-api-connector
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
